@@ -14,3 +14,10 @@ function rangen(){
     let color = `rgb(${red},${green},${blue})`
     return color
 }
+
+
+ let inp = document.querySelector("#inp")
+        let par = document.querySelector("#wrt")
+        inp.addEventListener("event",function(){
+            console.log(inp.value)
+        })
