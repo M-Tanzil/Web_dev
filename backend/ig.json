@@ -1,0 +1,87 @@
+{
+  "john_doe": {
+    "user_id": 1,
+    "name": "John Doe",
+    "followers": 12500,
+    "following": 850,
+    "profile_photo": "https://picsum.photos/id/1005/200/200",
+    "posts": [
+      {
+        "post_id": 101,
+        "photo_url": "https://picsum.photos/id/1015/800/800",
+        "caption": "Sunset at the beach 🌅",
+        "likes": 1450,
+        "comments": [
+          {
+            "user": "alice_smith",
+            "text": "Amazing view!"
+          },
+          {
+            "user": "mike_jones",
+            "text": "Beautiful shot."
+          }
+        ]
+      },
+      {
+        "post_id": 102,
+        "photo_url": "https://picsum.photos/id/1025/800/800",
+        "caption": "Coffee and coding ☕",
+        "likes": 980,
+        "comments": [
+          {
+            "user": "emma_wilson",
+            "text": "Looks productive!"
+          }
+        ]
+      }
+    ]
+  },
+
+  "alice_smith": {
+    "user_id": 2,
+    "name": "Alice Smith",
+    "followers": 8900,
+    "following": 620,
+    "profile_photo": "https://picsum.photos/id/1011/200/200",
+    "posts": [
+      {
+        "post_id": 201,
+        "photo_url": "https://picsum.photos/id/1035/800/800",
+        "caption": "Mountain adventure 🏔️",
+        "likes": 2100,
+        "comments": [
+          {
+            "user": "john_doe",
+            "text": "Awesome!"
+          }
+        ]
+      }
+    ]
+  },
+
+  "mike_jones": {
+    "user_id": 3,
+    "name": "Mike Jones",
+    "followers": 5400,
+    "following": 430,
+    "profile_photo": "https://picsum.photos/id/1027/200/200",
+    "posts": [
+      {
+        "post_id": 301,
+        "photo_url": "https://picsum.photos/id/1040/800/800",
+        "caption": "New gadget review 📱",
+        "likes": 760,
+        "comments": [
+          {
+            "user": "john_doe",
+            "text": "Looks great!"
+          },
+          {
+            "user": "alice_smith",
+            "text": "Nice review."
+          }
+        ]
+      }
+    ]
+  }
+}

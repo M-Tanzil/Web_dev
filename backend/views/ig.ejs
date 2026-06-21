@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta</title>
+</head>
+<body>
+    <h2>Welcome to the World Of @<%=user.name %></h2>
+    <img src="<%= user.profile_photo %>" alt="profile picture"><br>
+    <button type="button">Follow</button> &nbsp<button type="button">message</button>
+    <p>Followrs :<%= user.followers %> &nbsp &nbsp &nbsp &nbsp Following :<%= user.following %> </p>
+    <hr>
+    <% for(post of user.posts){%>
+        <img src="<%=post.photo_url%>" alt="post photo">
+        <p>Likes :<%= post.likes %> &nbsp &nbsp &nbsp &nbsp Comment :<%= post.comment %> </p>
+    <%}%>
+</body>
+</html>
